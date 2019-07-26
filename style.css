@@ -1,0 +1,53 @@
+body{
+    background-image: url("https://www.nationalgeographic.com/content/dam/expeditions/destinations/africa/private/Egypt/hero-egypt-pe.jpg");
+    background-repeat: no-repeat;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: rgba(33, 130, 196, 0.479)
+}
+
+li {
+    float: left;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    margin: 0px;
+    color: darkblue;
+    font-family: 'Arvo', serif;
+}
+
+h2{
+    display: flex;
+    text-align: center;   
+    font-size: 30px;
+    margin: 20px;
+    color: rgba(226, 230, 21, 0.788);
+    font-family: 'Lora', serif;
+}
+
+li a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: underline;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+li a:hover:not(.active) {
+    background-color: skyblue;
+}
+
+.active {
+    background-color: tomato;
+}
+
